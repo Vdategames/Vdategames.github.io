@@ -1,0 +1,135 @@
+<html>
+
+<head>
+<script language="JavaScript1.1">
+<!--
+
+/*
+JavaScript Image slideshow:
+By JavaScript Kit (www.javascriptkit.com)
+Over 200+ free JavaScript here!
+*/
+
+var slideimages=new Array()
+var slidelinks=new Array()
+function slideshowimages(){
+for (i=0;i<slideshowimages.arguments.length;i++){
+slideimages[i]=new Image()
+slideimages[i].src=slideshowimages.arguments[i]
+}
+}
+
+function slideshowlinks(){
+for (i=0;i<slideshowlinks.arguments.length;i++)
+slidelinks[i]=slideshowlinks.arguments[i]
+}
+
+function gotoshow(){
+if (!window.winslide||winslide.closed)
+winslide=window.open(slidelinks[whichlink])
+else
+winslide.location=slidelinks[whichlink]
+winslide.focus()
+}
+
+//-->
+</script>
+
+<title>Epilogues</title>
+
+<script language="javascript" src="_functions.js"></script>
+
+<link href="_style.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+
+<!--
+
+.style1 {	color: #FFFFFF;
+
+	font-weight: bold;
+
+	font-size: large;
+
+}
+.style4 {	font-weight: bold;
+	font-size: 23px;
+	color: #FFF;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+-->
+
+</style>
+</head>
+
+
+
+<body onLoad="disallowNav()">
+
+<div align="center">
+
+  <p>&nbsp;</p>
+
+
+
+<table width="1019" border="0">
+
+  <tr>
+
+    <td width="105">&nbsp;</td>
+
+    <td width="870"><p><img src="food1.jpg" name="slide" width=1280 height=720 border=0 usemap="#slideMap"></a></p>
+      <p>
+          <script>
+<!--
+
+//configure the paths of the images, plus corresponding target links
+slideshowimages("images/bj00.jpg","images/bj01.jpg","images/bj02.jpg","images/bj03.jpg","images/bj04.jpg","images/bj05.jpg","images/bj06.jpg","images/bj07.jpg","images/bj08.jpg","images/bj09.jpg","images/bj10.jpg","images/bj11.jpg","images/bj12.jpg","images/bj13.jpg","images/bj14.jpg","images/bj15.jpg","images/bj16.jpg","images/bj17.jpg","images/bj18.jpg","images/bj19.jpg","images/bj20.jpg","images/bj21.jpg","images/bj22.jpg","images/bj23.jpg","images/bj24.jpg","images/bj25.jpg","images/bj26.jpg","images/bj27.jpg","images/bj28.jpg","images/bj29.jpg")
+
+//configure the speed of the slideshow, in miliseconds
+var slideshowspeed=40
+
+var whichlink=0
+var whichimage=0
+function slideit(){
+if (!document.images)
+return
+document.images.slide.src=slideimages[whichimage].src
+whichlink=whichimage
+if (whichimage<slideimages.length-1)
+whichimage++
+else
+whichimage=0
+setTimeout("slideit()",slideshowspeed)
+}
+slideit()
+
+//-->
+          </script>
+      </p>
+      <table width="754" border="0" align="center">
+        <tr>
+          <td><script src="happycheck.js">
+
+</script></td>
+          <td><script src="daringcheck.js">
+
+</script></td>
+          <td><script src="violetcheck.js">
+
+</script></td>
+          <td><script src="aprilcheck.js">
+
+</script></td>
+        </tr>
+    </table>      <p>&nbsp;</p></td>
+    </tr>
+</table>
+
+</div>
+
+<map name="slideMap"><area shape="rect" coords="82,49,1166,694" href="intro32.html" title="See what she does next" /></map></body>
+
+</html>
+

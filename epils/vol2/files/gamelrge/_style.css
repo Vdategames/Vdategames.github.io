@@ -1,0 +1,75 @@
+body 
+
+{
+
+	background-color: #000000;
+
+}
+
+p 
+
+{
+	color: #999999;
+	font-weight: bold;
+	font-size: 23px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+
+
+
+td
+
+{
+
+	width: 333;
+
+	text-align: center;	
+
+}
+
+table a
+
+{
+	color: #FFFF00;
+	text-decoration: none;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+.content {
+  position: relative;
+}
+
+.content .tooltip {
+  background-color: #d3d3d3;
+  border: 1px solid #777;
+  border-radius: 7px;
+  padding: 2px;
+  position: absolute;
+  width: 400px;
+  z-Index: 99999;
+  display: none;
+}
+.style3 {
+	font-size: 23px;
+	color: #999900;
+
+}
+.style2 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.italic {
+	font-style: italic;
+}
+.italic {
+	font-style: italic;
+}
+.monk {
+	color: #F96;
+}
+.Kristen {
+	color: #99F;
+}
+.Leannashout {
+	font-style: italic;
+}
